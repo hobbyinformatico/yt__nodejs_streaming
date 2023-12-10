@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Server (server.js)",
+            "type": "node",
+            "request": "launch",
+            "runtimeVersion": "18",
+            "program": "${workspaceFolder}/backend/src/server.js"
+        },
+        {
+            "name": "debug Admin (React)",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/frontend/"
+        },
+    ]
+}
